@@ -1,0 +1,21 @@
+.heading{
+    text-wrap: centre;
+    text-align:centre;
+    color:beige;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
+body{
+    background: linear-gradient(to right, #060716, #231e47);
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+#shape {
+    position: relative;
+    border-radius: 8px;
+    height : 80px;
+    width: 60px;
+    border: none;
+    background-color: chartreuse;
+  
+}
