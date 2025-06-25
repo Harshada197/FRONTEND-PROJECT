@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+     <!-- Link to add Bootstrap to my page -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.rtl.min.css" integrity="sha384-MdqCcafa5BLgxBDJ3d/4D292geNL64JyRtSGjEszRUQX9rhL1QkcnId+OT7Yw+D+" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.rtl.min.css" integrity="sha384-MdqCcafa5BLgxBDJ3d/4D292geNL64JyRtSGjEszRUQX9rhL1QkcnId+OT7Yw+D+" crossorigin="anonymous"> -->
+    <title>App Landing Project</title>
+    <style>
+        .jumbotron{
+        background-image :url(image.jpg);
+        background-size: cover;
+        text-align: center;
+        margin-top: 50px;
+        font-weight: bolder !important;
+        color:white;
+        }
+
+        #content{
+        margin: 20px auto;
+        text-align: center;
+        }
+        #container{
+            margin-right: 40px;
+            margin-left: 40px;
+        }
+        #icon{
+            width:200px;
+        }
+        #footer{
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 150px;
+            padding-bottom: 150px;
+            background-color: #0f7ae4;
+        }   
+       .card-body{
+        text-align: center;
+        }
+        .card-title{
+        font-weight: bolder;
+        }
+        .card-text{
+        font-size: 1.2rem;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+  </head>
+ 
+<body data-spy="scroll" data-targer="#navbar" data-offset="150">
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jumbotron" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#content" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer" aria-current="page" href="#">Download My App</a>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="email" placeholder="email" aria-label="email" />
+                    <input class="form-control me-2" type="password" placeholder="password" aria-label="password" />
+                    <button class="btn btn-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+   <div class="jumbotron" id="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </p>
+</div>
+<div class="container" id="content">
+    <h2>A World of Young Creativity! 🎨✨ </h2>
+    <p>Welcome to ColorSplash, where young minds unleash their creativity!</p><p>Our app is designed for kids aged 6-12, offering a vibrant platform to explore art, music, and storytelling. With interactive features and a safe environment, children can express themselves freely while learning and having fun.</p><p> Join us in nurturing the next generation of artists and innovators!</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4" id ="container">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://media.istockphoto.com/id/474079606/photo/group-of-preschoolers-in-art-class-painting-pictures.webp?a=1&b=1&s=612x612&w=0&k=20&c=qyEIwxYonXZLrragvvK_wlA-fxC74U-lDVywBmperOI=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Painting Card </h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Express emotions and ideas through vibrant colors!</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://media.istockphoto.com/id/1903750760/photo/group-of-diversity-school-children-learning-acrylic-art-together-in-art-class.webp?a=1&b=1&s=612x612&w=0&k=20&c=jiurzi89JAFI2g5hW4f3E89238lXPZOlwykOAJrYJTE=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sketching Card</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Every stroke tells a story!</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://media.istockphoto.com/id/480849669/photo/small-girl-playing-with-colors.webp?a=1&b=1&s=612x612&w=0&k=20&c=P1w9Wd5IHkYQV2Yim5379mGyMefelJ_JfFvqeeQaIL4=" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Crafting Card</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Turn simple materials into masterpieces!</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+    <h3> Download Now !!</h3>
+    <h4>Available on Android and iOS</h4>
+    <p><a href="#"><img id="icon" src="download.png"></a></p>
+</div>
+
+</body>
+</html>
